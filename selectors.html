@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors</title>
+    <style>
+        div p{
+            color:rgb(26, 26, 216) ;
+        }
+        a:hover{
+            color:blueviolet;
+            font-size: 20px;
+        }
+        a:active{
+            color:brown;
+        }
+        ul {
+            list-style:non ; display:flex;
+        }
+        ul li {
+            margin:20px; border-right:1px solid;
+            padding-right: 20px;
+        }
+        ul li:nth-child(4){
+border-right:0px;
+        }
+        .para::first-letter{
+            color:brown; font-size: 70px;
+        }
+        .para::first-line{
+            background-color:aquamarine;
+        }
+        .para::after{
+            content:"read more";
+            color:blueviolet;
+            font-size:30px;
+        }
+    </style>
+</head>
+<body>
+    <!--css combinators-->
+    <div class="box">
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium rem quis, ab sit iure accusamus numquam nisi ipsa eos accusantium autem quaerat dicta tempore minus facilis, voluptatum in delectus! Excepturi!
+        </p>
+        </div>
+        <div>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, cumque. Unde adipisci nihil cupiditate commodi vel in rerum odit, distinctio quia ratione dolorem voluptatem quis praesentium temporibus quaerat velit! Laudantium.
+            </p>
+        </div>
+    </div>
+    <a href="">visit this link</a>
+    <ul >
+        <li>home</li>
+        <li>services</li>
+        <li>about</li>
+        <li>contact</li>
+    </ul>
+    <!--css pseudo: style a specific part of an element-->
+    <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto qui tenetur illo, ut ipsum nobis hic culpa eligendi ab officia eos corporis non quidem inventore incidunt, magnam eaque. Voluptates, suscipit.</p>
+</body>
+</html>
