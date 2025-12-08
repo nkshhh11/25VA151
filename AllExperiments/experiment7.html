@@ -1,31 +1,62 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-  <meta charset="utf-8" /> 
-  <title>Product Page - Simple</title> 
-  <link rel="stylesheet" href="peri7.css"> 
-</head> 
-<body> 
- 
-  <header class="site-header"> 
-    <h1>ShopEasy</h1> 
-  </header> 
- 
-  <main class="container"> 
-    <section class="product-card"> 
-      <img class="product-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQixkkj9T7IsDuahTPrQwUD0xkkL1INMVBUBA&s" alt="Product"> 
-      <h2 class="product-title">Classic Cotton T-Shirt</h2> 
-      <p class="product-desc">Soft, breathable cotton. Regular fit. Available in multiple colors.</p> 
- 
-      <div class="price-row"> 
-        <span class="price">₹799</span> 
-        <span class="old-price">₹1,199</span> 
-      </div> 
- 
-      <button class="add-cart">Add to Cart</button> 
-    </section> 
-  </main> 
- 
-</body> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        html,*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            width: 100%;
+            height: 40px;
+            background-color: #000;
+        }
+        ul{
+            list-style: none;
+        }
+        ul li{
+            display: inline;
+            margin: 0 20px;
+            line-height: 40px;
+           padding-right: 40px;
+            border-right: 1px solid #FFF;
+        }
+        ul li:nth-child(8){
+            border-right: 0;
+            padding-right: 0;
+        }
+        ul li a{
+            text-decoration: none;
+            color: #FFF;
+             background-color: #F04;
+            padding: 10px 15px;
+        }
+        ul li a:hover{
+            /* border-bottom: 1px solid #FFF; */
+            background-color: aquamarine;
+       }
+    </style>
+</head>
+<body>
+   <nav>
+    <ul>
+        <li><a href="">About</a></li>
+        <li><a href="">Admissions</a></li>
+        <li><a href="">Academics</a></li>
+        <li><a href="">Clubs</a></li>
+        <li><a href="">Campus</a></li>
+        <li><a href="">Placements</a></li>
+        <li><a href="">Research</a></li>
+        <li><a href="">Entrepreneurship</a></li>
+    </ul>
+   </nav> 
+</body>
 </html>
-
