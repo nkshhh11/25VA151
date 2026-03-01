@@ -1,0 +1,29 @@
+.box{
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solidrgb(227, 4, 4);
+    font-style: italic;
+}
+.heading{
+    color: #ff001e;
+}
+.button{
+    background-color: #ff001e;
+    border: solid green;
+    font-weight: 200;
+}
+.headingnew{
+    text-align: center;
+    text-transform: capitalize;
+}   
+.paragraph{
+    font-family: 'Times New Roman';
+    font-size: larger;
+}
+.outer{
+    text-size-adjust: 25px;
+}
+.inner{
+    text-size-adjust: 10px;
+}
